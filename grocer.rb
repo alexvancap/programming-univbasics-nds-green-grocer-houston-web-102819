@@ -23,6 +23,7 @@ def consolidate_cart(cart)
       item_to_find[:count] += 1
     else
       cart[index][:count] = 1
+      result << cart[i]
 
     index += 1
   end
