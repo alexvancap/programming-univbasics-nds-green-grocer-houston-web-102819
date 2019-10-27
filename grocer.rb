@@ -16,13 +16,7 @@ def consolidate_cart(cart)
   count = 0
   new_array = []
   cart.each_with_index do |item_hash, index|
-
-  while index < item_hash.length do
-
-    puts count
-    count += 1
-    index += 1
-  end
+    if item_hash[:item]
   end
  p new_array
 end
