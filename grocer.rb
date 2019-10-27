@@ -13,20 +13,20 @@ end
 
 def consolidate_cart(cart)
   cart.each do |item|
-     if consol_cart[item.keys[0]] #Item with that key is already in consol cart
-       consol_cart[item.keys[0]][:count] += 1
+     if cart[item.keys[0]] #Item with that key is already in consol cart
+       cart[item.keys[0]][:count] += 1
 
       else #Item with that key is NOT already in consol cart
        item_name = item.keys[0]
-       new_consol_cart_item = {}
-       new_consol_cart_item[:price] = item[item_name][:price]
-       new_consol_cart_item[:clearance] = item[item_name][:clearance]
-       new_consol_cart_item[:count] = 1
-       consol_cart[item_name] = new_consol_cart_item
+       new_cart_item = {}
+       new_cart_item[:price] = item[item_name][:price]
+       new_cart_item[:clearance] = item[item_name][:clearance]
+       new_cart_item[:count] = 1
+       cart[item_name] = new_cart_item
 
       end #end if
    end #end each block
-   consol_cart
+   cart
 end
 
 def apply_coupons(cart, coupons)
