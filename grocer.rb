@@ -19,7 +19,6 @@ def consolidate_cart(cart)
 
 
     index += 1
-    puts index
   end
   end
  p new_array
