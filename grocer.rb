@@ -12,14 +12,14 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  consol_cart = Hash.new
+  consol_cart = array.new
 
    cart.each do |item|
     if consol_cart[item.keys[0]] #Item with that key is already in consol cart
       consol_cart[item.keys[0]][:count] += 1
 
      else #Item with that key is NOT already in consol cart
-      puts 1
+
 
      end #end if
   end #end each block
