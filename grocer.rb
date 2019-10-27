@@ -39,6 +39,8 @@ def apply_coupons(cart, coupons)
     item_is_in_basket = !!item_with_coupon
 
     apply_count = item_is_in_basket && item_with_coupon[:count] >= coupon[:num]
+
+    if apply_count
   end
   # Consult README for inputs and outputs
   #
