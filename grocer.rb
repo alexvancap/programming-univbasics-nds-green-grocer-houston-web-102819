@@ -19,7 +19,7 @@ def consolidate_cart(cart)
 
   while index < item_hash.length do
 
-
+    puts count += 1
     index += 1
   end
   end
