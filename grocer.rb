@@ -18,7 +18,7 @@ def consolidate_cart(cart)
    if item_hash[:item] == new_hash[:item]
      puts "check"
    else
-    new_hash[:item] = item_hash[:item]
+    new_hash[:item] = {:item => item_hash[:item], :price => item_hash[:price], :clearance => item_hash[:clearance], :count => 1}
    end
  end
  new_hash
