@@ -16,8 +16,6 @@ def consolidate_cart(cart)
   hash = {}
  cart.each do |item_hash|
    puts item_hash[:item]
-
-   end
  end
 end
 
