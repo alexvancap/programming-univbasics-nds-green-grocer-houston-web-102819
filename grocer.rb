@@ -16,6 +16,7 @@ def consolidate_cart(cart)
   new_hash = {}
  cart.each do |item_hash|
    if item_hash[:item] == new_hash[:item]
+   end
  end
 end
 
