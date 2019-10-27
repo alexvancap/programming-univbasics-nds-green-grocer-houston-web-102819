@@ -13,6 +13,10 @@ end
 
 def consolidate_cart(cart)
   index = 0
+
+  while index < cart.length do
+    puts 1
+  end
 end
 
 def apply_coupons(cart, coupons)
