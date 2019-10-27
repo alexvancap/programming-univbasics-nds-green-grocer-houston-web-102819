@@ -12,6 +12,7 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
+  count = 1
   hash = {}
  cart.each do |item_hash|
    item_hash.each do |name, price_hash|
