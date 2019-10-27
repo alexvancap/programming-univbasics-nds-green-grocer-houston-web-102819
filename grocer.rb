@@ -13,8 +13,10 @@ end
 
 def consolidate_cart(cart)
   index = 0
+  count
   new_array = []
   cart.each_with_index do |item_hash, index|
+
   while index < item_hash.length do
 
 
