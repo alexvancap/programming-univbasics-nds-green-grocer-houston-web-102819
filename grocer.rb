@@ -12,7 +12,6 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  index = 0
   count = 0
   new_array = []
   cart.each_with_index do |item_hash, index|
