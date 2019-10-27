@@ -13,7 +13,7 @@ end
 
 def consolidate_cart(cart)
   index = 0
-  count
+  count = 0
   new_array = []
   cart.each_with_index do |item_hash, index|
 
