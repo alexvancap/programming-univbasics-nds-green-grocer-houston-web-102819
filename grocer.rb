@@ -15,7 +15,7 @@ def consolidate_cart(cart)
   count = 0
   new_array = []
  cart.each do |item_hash|
-   if item_hash[:item] == new_array[:item]
+   if item_hash[:item].include?(new_array[:item])
      item_hash[:count] += 1
    else
     new_array << {:item => item_hash[:item], :price => item_hash[:price], :clearance => item_hash[:clearance], :count => 1}
