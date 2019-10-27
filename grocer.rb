@@ -20,6 +20,8 @@ def consolidate_cart(cart)
 
     if find_item_by_name_in_collection(name, result)
 
+    end
+
     index += 1
   end
 end
