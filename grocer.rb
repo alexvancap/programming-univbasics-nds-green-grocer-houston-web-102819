@@ -58,4 +58,4 @@ cart = [{:item => "AVOCADO", :price => 3.00, :clearance => true},
   {:item => "CHOCOLATE", :price => 3.00, :clearance => true},
   {:item => "CHOCOLATE", :price => 3.00, :clearance => true}]
 
-  p consolidate_cart(cart)
+consolidate_cart(cart)
