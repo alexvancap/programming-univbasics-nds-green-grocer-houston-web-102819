@@ -16,7 +16,7 @@ def consolidate_cart(cart)
   hash = {}
  cart.each do |item_hash|
    item_hash.each do |name, price_hash|
-     puts name
+     puts price_hash
      if hash[name].nil?
 
      end
