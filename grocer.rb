@@ -19,7 +19,7 @@ def consolidate_cart(cart)
     name = cart[i][:item]
     item_to_find = find_item_by_name_in_collection(name, result)
 
-    if 
+    if
       sought
     end
 
