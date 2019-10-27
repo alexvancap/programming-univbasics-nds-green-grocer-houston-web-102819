@@ -36,6 +36,7 @@ def apply_coupons(cart, coupons)
   while index < cart.length do
     coupon = coupons[index]
     item_with_coupon = find_item_by_name_in_collection(coupon[:item], cart)
+    item_is_in_basket = !!item_with_coupon
   end
   # Consult README for inputs and outputs
   #
