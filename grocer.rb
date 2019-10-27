@@ -62,4 +62,4 @@ cart = [{:item => "AVOCADO", :price => 3.00, :clearance => true},
   {:item => "CHOCOLATE", :price => 3.00, :clearance => true},
   {:item => "CHOCOLATE", :price => 3.00, :clearance => true}]
 
-consolidate_cart(cart)
+apply_coupons(cart, coupons)
