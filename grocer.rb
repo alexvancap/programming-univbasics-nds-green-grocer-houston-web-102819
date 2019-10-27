@@ -13,6 +13,7 @@ end
 
 def consolidate_cart(cart)
   index = 0
+  result = []
 
   while index < cart.count do
     puts 1
