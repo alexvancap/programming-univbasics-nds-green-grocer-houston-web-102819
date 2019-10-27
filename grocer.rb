@@ -60,7 +60,8 @@ cart = [{:item => "AVOCADO", :price => 3.00, :clearance => true},
   {:item => "TV", :price => 3.00, :clearance => true},
   {:item => "XBOX", :price => 3.00, :clearance => true},
   {:item => "CHOCOLATE", :price => 3.00, :clearance => true},
-  {:item => "CHOCOLATE", :price => 3.00, :clearance => true}]
+  {:item => "CHOCOLATE", :price => 3.00, :clearance => true},
+{:item => "AVOCADO", :price => 3.00, :clearance => true}]
 
 coupons = [{:item => "AVOCADO", :num => 2, :cost => 5.00}]
 
