@@ -62,4 +62,5 @@ cart = [{:item => "AVOCADO", :price => 3.00, :clearance => true},
   {:item => "CHOCOLATE", :price => 3.00, :clearance => true},
   {:item => "CHOCOLATE", :price => 3.00, :clearance => true}]
 
+coupons = [{:item => "AVOCADO", :num => 2, :cost => 5.00}]
 apply_coupons(cart, coupons)
