@@ -16,6 +16,9 @@ def consolidate_cart(cart)
   new_hash = {}
  cart.each do |item_hash|
    if item_hash[:item] == new_hash[:item]
+     puts "check"
+   else
+     new_hash[item_hash]
    end
  end
 end
